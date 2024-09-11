@@ -4,10 +4,14 @@
 # }
 
 # spiralblade.com {
-
+# 	proxy / :80
 # }
 
-spiralblade.com {
+:80 {
+
+	@www.spiralblade.com host www.spiralblade.com
+	redir @www.spiralblade.com spiralblade.com{uri}
+
 	# https://caddyserver.com/docs/caddyfile/directives/header
 	header {
 		# Disable clients from sniffing the media type
