@@ -1,0 +1,4 @@
+FROM caddy:2.8-alpine AS app
+COPY app/www /app/www
+
+COPY docker/Caddyfile /etc/caddy/Caddyfile

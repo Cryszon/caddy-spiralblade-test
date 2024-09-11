@@ -1,0 +1,16 @@
+services:
+  caddy:
+    build:
+      dockerfile: Dockerfile.caddy
+    depends_on:
+      - php
+    restart: unless-stopped
+    expose:
+      - 80
+
+  php:
+    build:
+      dockerfile: Dockerfile.php
+    restart: unless-stopped
+    expose:
+      - 9000

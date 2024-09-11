@@ -1,0 +1,10 @@
+# This file is used to test production compose deployment locally. It contains
+# some overrides that allow the services to run in a local environment.
+#
+# Use the following command to launch the app:
+# docker-compose -f docker-compose.yml -f docker-compose.test.yml up -d --build
+
+services:
+  caddy:
+    ports:
+      - 8088:80
