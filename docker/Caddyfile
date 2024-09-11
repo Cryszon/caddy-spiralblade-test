@@ -10,7 +10,7 @@
 :80 {
 
 	@www.spiralblade.com host www.spiralblade.com
-	redir @www.spiralblade.com spiralblade.com{uri}
+	redir @www.spiralblade.com https://spiralblade.com{uri}
 
 	# https://caddyserver.com/docs/caddyfile/directives/header
 	header {
