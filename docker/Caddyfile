@@ -1,11 +1,11 @@
 # www to non-www redirect
-www.spiralblade.com {
-	redir https://spiralblade.com{uri}
-}
+# www.spiralblade.com {
+# 	redir https://spiralblade.com{uri}
+# }
 
-spiralblade.com {
+# spiralblade.com {
 
-}
+# }
 
 :80 {
 	# https://caddyserver.com/docs/caddyfile/directives/header
