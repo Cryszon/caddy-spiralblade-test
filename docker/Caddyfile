@@ -7,7 +7,7 @@
 
 # }
 
-:80 {
+spiralblade.com {
 	# https://caddyserver.com/docs/caddyfile/directives/header
 	header {
 		# Disable clients from sniffing the media type
